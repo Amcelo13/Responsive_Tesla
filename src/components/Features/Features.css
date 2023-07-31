@@ -1,0 +1,26 @@
+.feature--container{
+    min-height: 100vh;
+    margin-top: 24rem;
+    text-align: center;
+
+    /* color: white; */
+
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+.un{
+    color: black;
+    padding-top: 3rem;
+}
+@media only screen and (max-width: 600px) {
+    .feature--container{
+        margin-top: 10rem;
+    }
+  }
+  @media (min-width:770px) and (max-width: 1450px) {
+    .feature--container{
+        margin-top: -1%;
+    }
+  }

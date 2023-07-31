@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.head {
+  color: white;
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 3rem;
+  /* line-height: 0.7rem; */
+}
+.head1 {
+  color: white;
+  padding-top: 0rem;
+
+  text-align: center;
+}
+.head--button {
+  background: transparent;
+  color: white;
+  padding: 0.6rem;
+  transition: 1s;
+  /* position:fixed; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  font-weight: 750;
+  cursor: pointer;
+  border: 3px solid white;
+}
+.head--button:hover {
+  background: white;
+  color: black;
+  border: 3px solid white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width:770px) and (max-width: 1450px) {
+  .head--button {
+      margin-top: -4%;
+  }
+}
